@@ -25,7 +25,9 @@ class Dog
    
    new_array = []
    
-   new_array << @@all.
+   new_array << @@all.join("\n")
+   
+   new_array
    
     #@@all.each do |dog|
    #   puts "#{dog}"
