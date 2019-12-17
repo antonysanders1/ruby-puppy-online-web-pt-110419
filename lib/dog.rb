@@ -1,6 +1,6 @@
 # Add your code here
 require 'pry'
-
+binding.pry
 class Dog 
    @@all = []
  
@@ -21,6 +21,8 @@ class Dog
   
   
   def self.print_all
+   binding.pry
+   
     #@@all.each do |dog|
    #   puts "#{dog}"
    # end
