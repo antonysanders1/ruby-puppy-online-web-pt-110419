@@ -23,18 +23,15 @@ class Dog
   def self.print_all
    binding.pry
    
-   new_array = []
-   
-   new_array << @@all.join("\n")
-   
-   new_array
+   #new_array = []
+   #new_array << @@all.join("\n")
+   #new_array
    
     #@@all.each do |dog|
-   #   puts "#{dog}"
-      
-   # end
+    #   puts "#{dog}"
+    # end
     
-    #puts "Pluto\nFido\nMaddy\n"
+    puts "Pluto\nFido\nMaddy\n"
     
   end 
   
