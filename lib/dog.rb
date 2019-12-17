@@ -1,6 +1,6 @@
 # Add your code here
 require 'pry'
-binding.pry
+#binding.pry
 class Dog 
    @@all = []
  
@@ -22,7 +22,7 @@ class Dog
   
   
   def self.print_all
-   binding.pry
+   #binding.pry
    
    #new_array = []
    #new_array << @@all.join("\n")
