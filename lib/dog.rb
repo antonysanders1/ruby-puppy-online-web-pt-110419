@@ -36,7 +36,8 @@ class Dog
     
   end 
   
-  
+  def save=(save)
+    @save
   
 
 
