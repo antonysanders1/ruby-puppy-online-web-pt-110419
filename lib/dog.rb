@@ -23,6 +23,8 @@ class Dog
   def self.print_all
    binding.pry
    
+   new_array = []
+   
     @@all.each do |dog|
       puts "#{dog}"
       
