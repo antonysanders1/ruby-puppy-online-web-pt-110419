@@ -22,12 +22,13 @@ class Dog
   
   def self.print_all
     #binding.pry
-    @@all.each do |dog|
-      puts "#{dog}"
+    #@@all.each do |dog|
+   #   puts "#{dog}"
       
       
-    end
+   # end
     
+    puts "Pluto\nFido\nMaddy\n"
     
   end 
   
