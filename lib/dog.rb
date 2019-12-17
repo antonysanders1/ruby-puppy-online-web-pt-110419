@@ -25,10 +25,12 @@ class Dog
    
    new_array = []
    
-    @@all.each do |dog|
-      puts "#{dog}"
+   new_array << @@all.
+   
+    #@@all.each do |dog|
+   #   puts "#{dog}"
       
-    end
+   # end
     
     #puts "Pluto\nFido\nMaddy\n"
     
